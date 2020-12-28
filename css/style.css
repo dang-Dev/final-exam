@@ -1,6 +1,13 @@
 * {
     box-sizing: border-box;
 }
+body{
+    background:url("../wildrift.jpg");
+     background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+}
 .row{
     position: relative;
     width: 100%;
@@ -14,11 +21,15 @@
     width: 40%;
     text-align: center;
     padding: 5px 20px 5px 20px;
+    font-weight: 900;
+    border: none;
+    border-radius: 5px;
 }
 p{
     position: relative;
     margin: 35px 0 0 0;
     padding: 5px;
+    font-size: 18px;
 }
 .bg-red{
     background-color: red;
@@ -32,6 +43,15 @@ p{
 }
 h1{
     text-align: center;
+}
+.container{
+    border: 2px solid skyblue;
+    margin:15px;
+    box-sizing: border-box;
+    color:white;
+    background: transparent;
+    padding: 7px;
+    border-radius: 7px;
 }
 /*large devices*/
 @media(min-width: 992px){
@@ -73,12 +93,6 @@ h1{
    }
    .col-lg-12{
        width:100%;
-   }
-   .container{
-        border: 2px solid red;
-        margin:15px;
-        box-sizing: border-box;
-        color: white;
    }
    .lg-bg-purple{
         background-color: purple;
@@ -137,12 +151,6 @@ h1{
     .col-md-12{
         width:100%;
     }
-    .container{
-        border: 2px solid green;
-        box-sizing: border-box;
-        background-color: grey;
-        margin: 15px;
-   }
    .md-bg-red{
         background-color: red;
         color: white;
@@ -200,11 +208,6 @@ h1{
     .col-sm-12{
         width:100%;
     }
-    .container{
-        border: 2px solid blue;
-        margin:15px;
-        box-sizing: border-box;
-   }
    .sm-bg-red{
         background-color: red;
         color: white;
